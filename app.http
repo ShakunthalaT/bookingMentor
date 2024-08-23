@@ -1,0 +1,33 @@
+
+POST http://localhost:3000/mentors/
+Content-Type: application/json 
+
+{
+    "id" : 10,
+    "name" : "Rupesh",
+    "availability" : "No",
+    "areas_of_expertise" : "Equity Research",
+    "is_premium" : "Yes"
+} 
+
+
+
+
+### 
+GET http://localhost:3000/mentors/ 
+
+
+
+### 
+POST http://localhost:3000/booking/
+Content-Type: application/json 
+
+{
+    "name" : "Gopi",
+    "email" : "Gopi@gmail.com",
+    "phone_number" : "9988563489",
+    "state" : "{Andra pradhesh,Telangana,Karnataka,Tamil Nadu,Nepal,Maharashtra}"
+}
+
+### 
+GET http://localhost:3000/booking/
